@@ -1,0 +1,21 @@
+$red: #EB404E;
+$white: #fff;
+$blue-white: #d9ebe9;
+$yellow: #ffac3e;
+$green: #004a43;
+
+$animSpeed: 0.3s;
+
+[class*="__container"] {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+}
+
+[class*="__containerBig"] {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+}

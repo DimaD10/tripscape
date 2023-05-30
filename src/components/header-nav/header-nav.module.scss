@@ -1,0 +1,107 @@
+@import "../../../public/var.scss";
+
+.navigation {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+
+    padding: 0 10px;
+    transition: transform ease .4s;
+
+    @media (max-width: 991.98px) {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        padding-top: 64px;
+        background-color: rgba(217, 235, 233, 0.8);
+        backdrop-filter: blur(10px);
+        z-index: 120;
+        transform: translateY(-100%);
+        pointer-events: none;
+    }
+
+}
+.navigationWrapper {
+    display: flex;
+    gap: 24px;
+    @media (max-width: 1200px) {
+        gap: calc(18px + (24 - 18) * ((100vw - 991.98px) / (1200 - 991.98)));
+    }
+    @media (max-width: 991.98px) {
+        overflow-y: auto;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 20px;
+        gap: 24px;
+    }
+    flex-wrap: wrap;
+}
+.navigation.opened {
+    transform: translateY(0%);
+    pointer-events: all;
+}
+.navigation__el._current {
+    pointer-events: none;
+    color: $yellow;
+    &::after {
+        opacity: 1;
+        transform: translateY(0px) scaleX(1);
+    }
+}
+
+.navigationEl {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    padding: 12px 12px;
+    cursor: pointer;
+    transition: color ease-in-out .3s;
+    @media (max-width: 991.98px) {
+        font-size: 20px;
+    }
+
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background-color: $yellow;
+
+        opacity: 0;
+        transform: translateY(6px) scaleX(.5);
+        transition: transform ease-in-out .3s, opacity ease-in-out .3s;
+
+    }
+
+    &:hover {
+        color: $yellow;
+    }
+
+    &_marked {
+        svg {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            top: 0;
+            right: 0;
+        }
+    }
+}
+.navigationEl.active {
+    color: $yellow;
+    &::after {
+        opacity: 1;
+        transform: translateY(0px) scaleX(1);
+    }
+}

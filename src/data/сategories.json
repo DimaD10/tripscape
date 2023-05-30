@@ -1,0 +1,117 @@
+[
+    {
+        "image": "https://handluggageonly.co.uk/wp-content/uploads/2014/11/Wonderful-beachs-in-Cancun-s.jpg", 
+        "title": "sunny vacation", 
+        "about": "Beach tours offer exotic destinations, white sand beaches, water sports, and relaxation treatments."
+    },
+    {
+        "image": "https://kdvr.com/wp-content/uploads/sites/11/2020/08/Winter_Park_Skier.jpg", 
+        "title": "ski resorts", 
+        "about": "Mountain resorts offer prime skiing conditions in various countries worldwide, like the Alps, Rockies, Andes, and more."
+    },
+    {
+        "image": "https://www.studocu.com/blog/wp-content/uploads/2020/10/10-exotic-destinations-for-StuDocu-students.jpg", 
+        "title": "Exotic", 
+        "about": "Includes travel to remote and unusual locations such as tropical islands, deserts, jungles or remote ethnic reserves."
+    },
+    {
+        "image": "https://www.technogym.com/wpress/wp-content/uploads/2019/02/cultural-tourism-FB.jpg", 
+        "title": "Culture", 
+        "about": "Visiting museums, temples, world heritage sites, as well as the opportunity to get acquainted with local culture, traditions and customs."
+    },
+    {
+        "image": "https://www.royalcaribbean.com/content/dam/royal/ships/voyager/renders/voyager-of-the-seas-rear-of-ship-terns-aerial.jpg", 
+        "title": "Sea cruises", 
+        "about": "vacation on board luxury liners, with visits to various ports, excursion programs and entertainment on board."
+    },
+    {
+        "image": "https://wwwnc.cdc.gov/travel/images/mountain-biker.jpg", 
+        "title": "Adventure", 
+        "about": "Extreme tours offer adventurous activities like mountain visits, rafting, skydiving, and more."
+    },
+    {
+        "image": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-8/couple-hiking-mountain-climbing-1296x728-header.jpg?w=1155&h=1528", 
+        "title": "hiking", 
+        "about": "Hiking is a popular active recreation for nature lovers, offering physical activity in natural settings."
+    },
+    {
+        "image": "https://www.era-ewv-ferp.org/wp-content/uploads/2022/02/Eurorando_Balea2cStefan-Dragomir-42.jpg", 
+        "title": "Gastronomy and cooking", 
+        "about": "Gastronomy and cooking are categories of tourism that revolve around the exploration and indulgence in the culinary arts and food culture."
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZiggyRlBaV9W3cQ-dbiT3FnkqOnzg1QlsTfglymGa3AfZHSM2ira23af3ccb42CF8RPM&usqp=CAU", 
+        "title": "Relaxation and spa", 
+        "about": "Relaxation and spa tourism focuses on rejuvenation and self-care in serene settings."
+    },
+    {
+        "image": "https://blogpatagonia.australis.com/wp-content/uploads/2017/06/iStock-506550218-835x560.jpg", 
+        "title": "Family adventures", 
+        "about": "Family adventures are tours designed for enjoyable experiences for all ages in a family."
+    },
+    {
+        "image": "https://expatexplore.com/blog/wp-content/uploads/2020/12/romanticdestinatinos_greece1.png", 
+        "title": "Romantic vacation", 
+        "about": "A romantic vacation is a getaway for couples to bond and create lasting memories in a charming destination."
+    },
+    {
+        "image": "https://blog.gopassage.com/hubfs/Blog%20Images/2021/2112/Optimization%205/Fans%20enjoying%20a%20music%20festival.png", 
+        "title": "Festivals and events", 
+        "about": "Festivals and events are lively gatherings that celebrate culture, featuring music, dance, food, and art."
+    },
+    {
+        "image": "https://www.eagleoverlookrecovery.com/wp-content/uploads/2021/11/Spiritual-Development.jpeg", 
+        "title": "spiritual development", 
+        "about": "Spiritual development is the path to inner growth and self-understanding."
+    },
+    {
+        "image": "https://cdn.getyourguide.com/img/tour/5cfa31f9757c4.jpeg/146.jpg", 
+        "title": "Excursion tours", 
+        "about": "Tours that include sightseeing tours, visits to historical monuments, museums, architectural gems and other tourist attractions."
+    },
+    {
+        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/09/c7/c0/80.jpg", 
+        "title": "Wine tours", 
+        "about": "Tours dedicated to visiting wine regions, wine tasting and familiarization with the wine production process."
+    },
+    {
+        "image": "https://s1.stc.all.kpcdn.net/putevoditel/projectid_379258/images/tild3633-6335-4839-b831-636232376432__photo.jpg", 
+        "title": "Photo tours", 
+        "about": "Tours designed for photographers and photography enthusiasts, offering the opportunity to capture incredible landscapes, nature, cultural sites and terrain"
+    },
+    {
+        "image": "https://joy-pup.com/wp-content/uploads/2019/07/Sekumpul.jpg", 
+        "title": "Waterfall", 
+        "about": "Experience the awe-inspiring beauty and power of nature with our Waterfall Tours, where you'll witness and capture breathtaking cascades in stunning locations."
+    },
+    {
+        "image": "https://fullsuitcase.com/wp-content/uploads/2019/12/Where-to-stay-in-Lake-Como-Italy.jpg.webp", 
+        "title": "Lakes", 
+        "about": "Immerse yourself in the tranquil beauty of our Lakes Tours, where you'll have the perfect opportunity to capture breathtaking reflections and serene landscapes in picturesque settings."
+    },
+    {
+        "image": "https://cdn.outsideonline.com/wp-content/uploads/2018/11/20/outside-guide-grand-canyon_h.jpg", 
+        "title": "Canyons", 
+        "about": "Discover the grandeur of nature's masterpieces on our Canyon Tours, where you'll capture the sheer magnificence of towering cliffs and breathtaking vistas."
+    },
+    {
+        "image": "https://petapixel.com/assets/uploads/2021/05/Michael-Shainblum-Death-Valley-Sand-Dunes-1.png", 
+        "title": "Desert", 
+        "about": "Embark on our Desert Tours and venture into the mesmerizing expanse of arid landscapes, capturing the raw beauty of endless dunes and golden sunsets in your photography."
+    },
+    {
+        "image": "https://uploads-ssl.webflow.com/60ccb5b3bd077c65f47edce9/60d56916de3f53c8781226ff_Frame%203-OG.png", 
+        "title": "Forest", 
+        "about": "Embark on our Forest Tours and immerse yourself in the enchanting beauty of lush greenery, capturing the serenity and majesty of towering trees and vibrant flora in your photographs."
+    },
+    {
+        "image": "https://media.macphun.com/img/uploads/skylum/marketplace/product/481/ba/golden_after.jpg?w=1270&h=650&resize=cover", 
+        "title": "wild fauna", 
+        "about": "Capture untamed beauty on our Wild Fauna Tours, where you'll photograph diverse animal species in their natural habitats."
+    },
+    {
+        "image": "https://t3.ftcdn.net/jpg/05/03/29/78/360_F_503297866_X7L2qS38ExZweRRIMPPkuHyRnutMlPuF.jpg", 
+        "title": "amazing flora", 
+        "about": "Immerse yourself in the world of breathtaking flora on our Amazing Flora Tours, capturing the vibrant colors and intricate details of stunning plant life in mesmerizing settings."
+    }
+]

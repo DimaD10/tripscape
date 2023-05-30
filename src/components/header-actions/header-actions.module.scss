@@ -1,0 +1,56 @@
+@import "../../../public/var.scss";
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+    z-index: 121;
+}
+.button {
+    height: 30px;
+    padding: 0 12px;
+
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 300;
+    white-space: nowrap;
+    transition: background-color ease-in-out .3s, border ease-in-out .3s;
+
+    &_stroke {
+        background-color: transparent;
+        border: 1px solid transparent;
+        color: #EB404E;
+        font-weight: 400;
+
+        &:hover {
+            border: 1px solid #EB404E;
+        }
+    }
+    &_filled {
+        background-color: #EB404E;
+        color: $white;
+
+        &:hover {
+            background-color: #b42e39;
+        }
+    }
+}
+.favoriteButton {
+    margin: auto 0;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: opacity ease-in-out .3s;
+    svg {
+        width: 22px;
+        height: 22px;    
+        path {
+            transition: fill ease-in-out .3s;
+            fill: #EB404E;
+        }
+    }
+     
+    &:hover {
+        opacity: .8;
+    }
+}

@@ -1,0 +1,185 @@
+@import "../../../public/var.scss";
+
+.popup {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    min-height: 100%;
+    overflow-y: auto;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto 30px auto;
+
+}
+.title {
+    font-family: Montserrat;
+    font-size: 26px;
+    text-align: center;
+    line-height: 140%;
+    font-weight: 700;
+}
+.popupCard {
+    background-color: $white;
+    padding: 26px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 460px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.form {
+    width: 100%;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.popupBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+.inputLabel {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+}
+.input {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    font-family: Montserrat;
+    font-size: 16px;
+    border-bottom: 1px solid #222;
+    transition: border ease-in-out $animSpeed;
+
+    &:focus {
+        border-bottom: 1px solid $yellow;
+    }
+    &::placeholder {
+        color: #b8b8b8;
+    }
+}
+.checkbox {
+    margin-right: 12px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.policy {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+.policyText {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 138%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+
+    a {
+        color: $red;
+        transition: color ease-in-out $animSpeed;
+        &:hover {
+            color: #b42e39;
+        }
+    }
+}
+input:-webkit-autofill{
+    box-shadow: inset 0 0 0 1000px #fff;
+}
+.cbx {
+    position: relative;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    vertical-align: middle;
+    transition: background-color 0.1s ease;
+    cursor: pointer;
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+   }
+   
+.cbx::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 5.4px;
+    width: 6px;
+    height: 10px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+}
+.checkbox:checked ~ .cbx {
+    border-color: transparent;
+    background: $red;
+    animation: jelly 0.6s ease;
+}
+   
+.checkbox:checked ~ .cbx::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+   
+.ctnr {
+    width: 16px;
+    height: 16px;
+    position: relative;
+}
+      
+.checkbox {
+    display: none!important;
+}
+
+.button {
+    height: 45px;
+    padding: 0 56px;
+    margin: 0 auto;
+    background-color: $red;
+    color: $white;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+
+    transition: background-color ease-in-out $animSpeed;
+    &:hover {
+        background-color: #b42e39;
+    }
+}
+.otherWay{ 
+    margin: 12px 0;
+    text-align: center;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+
+    button {
+        color: $red;
+        background-color: transparent;
+        transition: color ease-in-out $animSpeed;
+
+        &:hover {
+            color: #b42e39;
+        }
+    }
+}

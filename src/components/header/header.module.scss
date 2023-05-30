@@ -1,0 +1,57 @@
+@import "../../../public/var.scss";
+
+.header {
+    
+    padding: 10px;
+    background-color: $blue-white;
+    z-index: 122;
+    height: 64px;
+
+    &__containerBig {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        height: 100%;
+
+        @media (max-width: 991.98px) {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+.burger {
+    display: none;
+    margin: auto 0;
+    margin-left: 6px;
+    background-color: transparent;
+    @media (max-width: 991.98px) {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        z-index: 121;
+        
+        span {
+            pointer-events: none;
+            display: block;
+            width: 24px;
+            height: 2px;
+            background-color: #222;
+            transition: transform cubic-bezier(0.68, -0.6, 0.32, 1.6) .3s, width cubic-bezier(0.68, -0.6, 0.32, 1.6) .3s;
+        }
+    }
+}
+.burger.opened {
+    span {
+        &:nth-child(1) {
+            transform: rotate(45deg) translate(4.2px, 1.5px);
+            width: 50%;
+        }
+        &:nth-child(2) {
+            transform: rotate(-45deg);
+            //width: 50%;
+        }
+        &:nth-child(3) {
+            transform: rotate(45deg) translate(4.2px, -9.5px);
+            width: 50%;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "image": "../../assets/img/popular-card/img1.jpg", 
+        "title": "Santorini. Greece", 
+        "about": "Santorini is a volcanic island in the Aegean Sea, located in southwestern Greece. This island is one of the most popular tourist destinations in Greece thanks to its crystal clear waters, white sand and incredible sea views."
+    },
+    {
+        "image": "../../assets/img/popular-card/img3.webp", 
+        "title": "Maldives", 
+        "about": "The Maldives is a tropical island nation located in the Indian Ocean, known for its stunning natural beauty, white-sand beaches, and crystal-clear waters. With over 1,000 coral islands, it is a popular destination for snorkeling, diving, and other water-based activities. The Maldives is also home to luxurious overwater bungalows, making it a popular honeymoon destination."
+    },
+    { 
+        "image": "../../assets/img/popular-card/img4.jpg", 
+        "title": "Sicily. Italy", 
+        "about": "Sicily is a beautiful island off the southern coast of Italy, known for its diverse landscapes, rich history, and delicious cuisine. Visitors can enjoy stunning beaches, rugged mountains, and active volcanoes, as well as explore ancient temples, amphitheaters, and cathedrals. The island's cuisine is famous for its fresh seafood, pastries, and wines."
+    },
+    {
+        "image": "../../assets/img/popular-card/img2.jpeg", 
+        "title": "Phi Phi Islands. Thailand", 
+        "about": "Phi Phi Islands is a small archipelago in Thailand, located in the Andaman Sea. It is known for its breathtaking beaches, crystal-clear waters, and stunning natural beauty. The islands offer a range of activities, including snorkeling, diving, and rock climbing, making it a popular destination for tourists."
+    }
+]

@@ -1,0 +1,106 @@
+@import "../../../public/var.scss";
+
+.footer {
+    display: flex;
+    width: 100%;
+    &__containerBig {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        @media (max-width: 767.98px) {
+            grid-template-columns: 1fr 1fr;
+            row-gap: 30px;
+        }
+        @media (max-width: 480px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    padding: 30px 0;
+}
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (max-width: 767.98px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    @media (max-width: 480px) {
+        div {
+            display: none;
+        }
+    }
+}
+.copyright {
+    color: #8a828a;
+    @media (max-width: 480px)  {
+        display: flex;
+    }
+    &_general {
+        display: none;
+        @media (max-width: 480px)  {
+            display: inline-block;
+        }
+    }
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 30px;
+    @media (max-width: 767.98px) {
+        margin: 0 auto;
+        padding-left: calc(0px + (30 - 0) * ((100vw - 320px) / (767.98 - 320)));
+    }
+    @media (max-width: 480px)  {
+        margin: 0;
+    }
+}
+
+.title {
+    margin-bottom: 24px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &__el {
+        font-family: Montserrat;
+        font-size: 16px;
+        line-height: 138%;
+        a {
+            color: #222;
+            transition: color ease-in-out $animSpeed;
+        }
+        &:hover {
+            a {
+                color: $red;
+            }
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+.socialMenu {
+    display: flex;
+    gap: 14px;
+
+    li {
+        transition: opacity ease-in-out $animSpeed;
+        &:hover {
+            opacity: .6;
+        }
+    }
+}

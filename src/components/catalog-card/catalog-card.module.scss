@@ -1,0 +1,98 @@
+@import "../../../public/var.scss";
+
+.catalogCard {
+    padding: 16px 22px;
+    @media (max-width: 767.98px) {
+        padding-left: calc(12px + (22 - 12) * ((100vw - 320px) / (767.98 - 320)));
+        padding-right: calc(12px + (22 - 12) * ((100vw - 320px) / (767.98 - 320)));
+    }
+    border-radius: 12px;
+    overflow: hidden;
+
+    position: relative;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /*
+    &:nth-child(-n+6) {
+        display: flex;
+    }*/
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: background-color ease-in-out $animSpeed;
+        z-index: -1;
+        @media (max-width: 991.98px) {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    &:hover {
+        .preview {
+            img {
+                transform: scale(1.05);
+            }
+        }
+        .about {
+            line-height: 130%;
+            opacity: 1;
+            margin-top: 10px;
+        }
+        &::before {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+    }
+}
+.title {
+    text-transform: capitalize;
+
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 22px;
+    color: $white;
+}
+.preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+
+        transition: transform ease-in-out .4s;
+    }
+}
+.about {
+    color: $white;
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 0%;
+    opacity: 0;
+    //height: 100%;
+    @media (max-width: 991.98px) {
+        line-height: 130%;
+        opacity: 1;
+        margin-top: 10px;
+    }
+
+    transition: margin ease-in-out $animSpeed, line-height ease-in-out $animSpeed, opacity ease-in-out $animSpeed;
+}
+.favorite-btn {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+}
