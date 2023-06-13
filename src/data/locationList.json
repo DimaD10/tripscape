@@ -1,22 +1,47 @@
 [
     {
-        "image": "../../assets/img/popular-card/img1.jpg", 
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/81/30/3f/caption.jpg?w=700&h=-1&s=1&cx=1846&cy=1833&chk=v1_6ae0a81ae3361e988707", 
         "title": "Santorini. Greece", 
         "about": "Santorini is a volcanic island in the Aegean Sea, located in southwestern Greece. This island is one of the most popular tourist destinations in Greece thanks to its crystal clear waters, white sand and incredible sea views."
     },
     {
-        "image": "../../assets/img/popular-card/img3.webp", 
+        "image": "https://www.travelandleisure.com/thmb/hxsxT-zx4837n7trkEr5snUtDbY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/header-constance-halaveli-MALDIVESALLIN0717-d7fce24d8aa048d0893200032dc1d7bf.jpg", 
         "title": "Maldives", 
         "about": "The Maldives is a tropical island nation located in the Indian Ocean, known for its stunning natural beauty, white-sand beaches, and crystal-clear waters. With over 1,000 coral islands, it is a popular destination for snorkeling, diving, and other water-based activities. The Maldives is also home to luxurious overwater bungalows, making it a popular honeymoon destination."
     },
     { 
-        "image": "../../assets/img/popular-card/img4.jpg", 
+        "image": "https://pastapretzelsandpassports.com/wp-content/uploads/2022/12/Sicily-Castellammare-del-Golfo.jpg", 
         "title": "Sicily. Italy", 
         "about": "Sicily is a beautiful island off the southern coast of Italy, known for its diverse landscapes, rich history, and delicious cuisine. Visitors can enjoy stunning beaches, rugged mountains, and active volcanoes, as well as explore ancient temples, amphitheaters, and cathedrals. The island's cuisine is famous for its fresh seafood, pastries, and wines."
     },
     {
-        "image": "../../assets/img/popular-card/img2.jpeg", 
+        "image": "https://www.adventurouskate.com/wp-content/uploads/2019/12/Koh-Phi-Phi.jpg", 
         "title": "Phi Phi Islands. Thailand", 
         "about": "Phi Phi Islands is a small archipelago in Thailand, located in the Andaman Sea. It is known for its breathtaking beaches, crystal-clear waters, and stunning natural beauty. The islands offer a range of activities, including snorkeling, diving, and rock climbing, making it a popular destination for tourists."
+    },
+    {
+        "image": "https://a.cdn-hotels.com/gdcs/production6/d781/3bae040b-2afb-4b11-9542-859eeb8ebaf1.jpg", 
+        "title": "Istanbul. Turkey", 
+        "about": "Istanbul is a captivating city that sits at the crossroads of Europe and Asia, offering a unique blend of cultures and histories. Its stunning architecture, bustling markets, and delicious cuisine make it a must-visit destination for any traveler. Be sure to visit iconic landmarks such as the Hagia Sophia and the Blue Mosque, take a stroll through the vibrant streets of the Grand Bazaar, and indulge in some of the city's famous Turkish coffee and baklava."
+    },
+    {
+        "image": "https://www.thomascook.com/.imaging/default/dam/legacy/compressed-jpg/costa-brava-hero1.jpg/jcr:content.jpg", 
+        "title": "Costa Brava. Spain", 
+        "about": "Costa Brava is a beautiful coastal region in northeastern Spain, with stunning beaches, charming fishing villages, and plenty of outdoor activities. It's a great destination for adventure-seekers and beach lovers, and offers delicious seafood and local wines to enjoy."
+    },
+    {
+        "image": "https://media.timeout.com/images/105436081/750/562/image.jpg", 
+        "title": "Miami. USA", 
+        "about": "Miami is a dynamic and vibrant city located in southeastern Florida, famous for its stunning beaches, art deco architecture, diverse culinary scene, and lively nightlife. It's a great destination for travelers looking for sun, fun, and culture."
+    },
+    {
+        "image": "https://studyinginswitzerland.com/wp-content/uploads/2022/04/Montreux-Promenade-e1650638103334.jpg", 
+        "title": "Montreux. Switzerland", 
+        "about": "Costa Brava is a beautiful coastal region in northeastern Spain, with stunning beaches, charming fishing villages, and plenty of outdoor activities. It's a great destination for adventure-seekers and beach lovers, and offers delicious seafood and local wines to enjoy."
+    },
+    {
+        "image": "https://assets.vogue.in/photos/5ce41cfc4a30b3f5c612bf13/16:9/pass/Your-ultimate-guide-to-Tokyo-Japan1.jpg", 
+        "title": "Tokyo. Japan", 
+        "about": "Tokyo, the bustling capital of Japan, is a vibrant metropolis that offers an exhilarating blend of traditional culture and modern innovation. As one of the most populous cities in the world, Tokyo presents endless opportunities for exploration, from historic landmarks to futuristic technology, delicious cuisine, and unique experiences."
     }
 ]

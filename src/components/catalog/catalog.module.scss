@@ -34,6 +34,7 @@
     font-weight: 300;
     font-size: 16px;
     font-family: Montserrat;
+    background-color: transparent;
     color: $red;
     transition: color ease-in-out $animSpeed;
 
@@ -68,16 +69,27 @@
 .list {
     padding: 30px 0;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
-    @media (max-width: 1100px) {
+    @media (max-width: 1320px) {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
     @media (max-width: 767.98px) {
-        display: flex;
-        flex-direction: column;
         gap: 14px;
+    }
+}
+
+.moreBtn {
+    height: 33px;
+    margin: 0 auto;
+    padding: 4px 26px;
+    border: 1px solid transparent;
+    transition: border ease-in-out $animSpeed, color ease-in-out $animSpeed;
+    &:hover {
+        border: 1px solid $red;
+        color: $red;
     }
 }

@@ -15,10 +15,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    /*
-    &:nth-child(-n+6) {
-        display: flex;
-    }*/
+    max-width: 405px;
 
     &::before {
         content: '';
